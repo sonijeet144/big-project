@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE ONE</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    /* CSS reset */
+    body {
+        font-family: cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://t4.ftcdn.net/jpg/02/86/09/83/240_F_286098390_D2J4jLbOkCzikuSXxQBh26IxhR7t4i28.jpg');
+        background-repeat: no-repeat;
+        background-size:contain;
+
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 19px;
+        font-size: 20px;
+    }
+    .class1:hover{
+        color: red;
+        cursor: pointer;
+    }
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 43px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 0px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        /* text-decoration:none; */
+        border-bottom: 5px solid red;
+        color: red;
+        background-color: white;
+        border-radius: 20PX;
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+    .btn a{
+        text-decoration: none;
+        color: red;
+    }
+
+    .btn:hover {
+        background-color: white;
+        border-bottom: 5px solid red;
+        color: red;
+        
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 100px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .formgroup input {
+        text-align: center;
+        font-family: cursive;
+        display: block;
+        width: 400px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+    .class2:hover{
+        color: red;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="https://cdn.pixabay.com/photo/2017/01/31/08/48/barbell-2023339_960_720.png" alt="error">
+            <div class="class1">THEONE GYM</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculater</a></li>
+                <li><a href="#">Contect us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1 class="class2">join the best gym of gujrat now</h1>
+        <form action="noction.php">
+            <div class="formgroup">
+                <input type="text" placeholder="enter your Name">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="enter your Phone number">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="enter your Gender">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="enter your Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="enter your E-mail id">
+            </div>
+            <div class="formgroup">
+                <input type="text" placeholder="enter your locality"> <!--adress-->
+            </div>
+            <div>
+                <button class="btn"><a href="file:///C:/Users/jay/OneDrive/Documents/New%20folder/project-1%20second%20page.html" target="_blank">submit </a></button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
