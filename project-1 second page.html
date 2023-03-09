@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit and fab gym</title>
+    <style>
+        body {
+            font-family: cursive;
+            margin: 0px;
+            padding: 0px;
+            background: url('https://media.istockphoto.com/id/827403850/photo/muscular-man-abs-in-gym-shaped-abdominal-strong-male-naked-torso-working-out.jpg?s=612x612&w=0&k=20&c=vAIdgkPOH5yU91UEtjPYS9zhWDUfIR1syxtMpjsgd50=');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+
+        }
+
+        .left img {
+            width: 136px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            color: red;
+            text-align: center;
+            line-height: 19px;
+            font-size: 20px;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 60%;
+            margin: 20px auto;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+            
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 0px 23px;
+            
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            border-bottom: 5px solid red;
+            color: red;
+            background-color: white;
+            border-radius: 20PX;
+            
+        }
+
+        .right {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 43px;
+        }
+
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: white;
+            border-bottom: 5px solid red;
+            color: red;
+            transform: scale(1.5);
+        }
+
+        .class1 {
+            /* border: 1px solid red; */
+            width: 35%;
+            position: relative;
+            top: 15rem;
+            left: 4rem;
+        }
+        .class1 h1{
+            color: white;
+            font-size: 45px;
+        }
+        .class1 h1 .class2{
+            border-bottom: 5px solid red;
+        }
+        .class1 h1 .class2:hover{
+
+            border-radius: 20px;
+            
+            
+        }
+        .class3{
+            color:red;
+        }
+        .class3:hover{
+            
+            
+            border-radius: 20px;
+            
+        }
+        p{
+            
+            font-size: 20px;
+            color: white;
+            margin-top: 20px;
+        }
+        .btn1{
+            margin: 250px 400px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 30px;
+            letter-spacing: 2px;
+            cursor: pointer;
+            /* transform: scale(2); */
+        }
+        .btn1 a{
+        text-decoration: none;
+        color: red;
+       
+    }
+        .btn1:hover {
+            background-color: white;
+            color: red;
+            border-bottom: 5px solid red;
+            transform: scale(2);
+        }
+        .id:hover{
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="https://cdn.pixabay.com/photo/2017/01/31/08/48/barbell-2023339_960_720.png" alt="error">
+            <div class="id">Fit and fab gym</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="file:///C:/Users/jay/OneDrive/Documents/New%20folder/project-1.html" >Home</a></li>
+                <li><a href="#" class="active">Motivation</a></li>
+                <li><a href="#">Workout tips</a></li>
+                <li><a href="#">Contect us</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">call us now</button>
+            <button class="btn">email us</button>
+        </div>
+        <div class="class1">
+            <h1><span class="class2">NO PAIN</span><span class="class3"> NO GAIN</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur molestiae impedit ex quo cupiditate maiores minus id odio odit vel.</p>
+           
+        </div>
+        <button class="btn1"><a href="https://musclewiki.com/" target="_blank">NEXT ></a></button>
+</body>
+
+</html>
